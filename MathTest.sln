@@ -5,9 +5,9 @@ VisualStudioVersion = 17.14.36511.14 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathTest", "MathTest.vcxproj", "{4BD257E5-C397-42C5-A923-B6D7AF8CFF8E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GoogleTest", "..\GoogleTest\GoogleTest.vcxproj", "{24CB5A62-1710-44CA-9B6F-63D31D39BE31}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GoogleTest", "GoogleTest\GoogleTest.vcxproj", "{24CB5A62-1710-44CA-9B6F-63D31D39BE31}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Math.lib", "..\Math.lib\Math.lib.vcxproj", "{87364B39-FF8B-464E-BB55-23B5D75F9958}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Math.lib", "Math.lib\Math.lib.vcxproj", "{87364B39-FF8B-464E-BB55-23B5D75F9958}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
