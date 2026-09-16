@@ -31,3 +31,18 @@ MathTest::~MathTest() {
     delete[] tasks;
     delete[] user_answers;
 }
+void MathTest::submit_answer(int index, int answer) {
+    if (index < 0 || index >= count) return;   
+    user_answers[index] = answer;
+    if (answer == tasks[index].answer) {
+        ++correct_count;
+    }
+}
+
+bool MathTest::is_correct(int index) const {
+    return user_answers[index] == tasks[index].answer;
+}
+
+int MathTest::get_correct_count() const { return correct_count; }
+int MathTest::get_count() const { return count; }
+const Task& MathTest::get_task(int index) const { return tasks[index]; }
